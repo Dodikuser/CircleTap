@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class TouchHandler : MonoBehaviour
+public class TouchHandler : MonoBehaviour, ITouchable
 {
     public event Action <Vector2> OnTouch;
 

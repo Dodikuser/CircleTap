@@ -19,3 +19,7 @@ public interface IPointSpawner
 {
     public void SpawnPoint(Vector2 position);
 }
+public interface ITouchable
+{
+    public void Touch();
+}
